@@ -19,20 +19,47 @@ public class BankAccount {
     }
 
     // Getter & Setter
-    public int getId() { return id; }
-    public void setId(int id) { this.id = id; }
 
-    public String getAccountHolderName() { return accountHolderName; }
-    public void setAccountHolderName(String accountHolderName) { this.accountHolderName = accountHolderName; }
 
-    public long getAccountNumber() { return accountNumber; }
-    public void setAccountNumber(long accountNumber) { this.accountNumber = accountNumber; }
+    public int getId() {
+        return id;
+    }
 
-    public double getAccountBalance() { return accountBalance; }
-    public void setAccountBalance(double accountBalance) { this.accountBalance = accountBalance; }
+    public void setId(int id) {
+        this.id = id;
+    }
 
-    public String getIfscCode() { return ifscCode; }
-    public void setIfscCode(String ifscCode) { this.ifscCode = ifscCode; }
+    public String getAccountHolderName() {
+        return accountHolderName;
+    }
+
+    public void setAccountHolderName(String accountHolderName) {
+        this.accountHolderName = accountHolderName;
+    }
+
+    public long getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(long accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public double getAccountBalance() {
+        return accountBalance;
+    }
+
+    public void setAccountBalance(double accountBalance) {
+        this.accountBalance = accountBalance;
+    }
+
+    public String getIfscCode() {
+        return ifscCode;
+    }
+
+    public void setIfscCode(String ifscCode) {
+        this.ifscCode = ifscCode;
+    }
 
     // Methods
     public void displayInfoAndBalance() {
