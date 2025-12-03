@@ -1,0 +1,12 @@
+Java is a popular programming language.
+It is used to build web applications.
+Developers love Java for its reliability.
+Java supports object oriented concepts.
+File handling in Java is simple.
+BufferedReader makes reading faster.
+Java also has FileReader class.
+This is a sample text file.
+We will count words and lines.
+Java is fast and secure.
+Collections in Java are powerful.
+This file is for practice.
