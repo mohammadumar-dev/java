@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: 002
+      author: mohammad-umar
+      changes:
+        - createIndex:
+            tableName: students
+            indexName: idx_students_course
+            columns:
+              - column:
+                  name: course

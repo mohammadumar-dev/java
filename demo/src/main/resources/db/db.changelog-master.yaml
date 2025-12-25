@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: db/changes/001-create-student-table.yaml
+  - include:
+      file: db/changes/002-add-index.yaml
